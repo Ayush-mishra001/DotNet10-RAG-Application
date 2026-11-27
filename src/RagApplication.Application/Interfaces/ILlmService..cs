@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RagApplication.Application.Interfaces
 {
-    internal interface ILlmService
+    public interface ILlmService
     {
         Task<string> GenerateResponseAsync(
        string question,

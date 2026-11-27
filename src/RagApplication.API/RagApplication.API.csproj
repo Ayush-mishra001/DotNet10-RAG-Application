@@ -4,6 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0c5fa529-61e1-4fad-9204-9f8684181efa</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,10 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\RagApplication.Application\RagApplication.Application.csproj" />
     <ProjectReference Include="..\RagApplication.Infrastructure\RagApplication.Infrastructure.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
