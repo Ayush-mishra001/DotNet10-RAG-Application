@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RagApplication.Application\RagApplication.Application.csproj" />
+    <ProjectReference Include="..\RagApplication.Domain\RagApplication.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
